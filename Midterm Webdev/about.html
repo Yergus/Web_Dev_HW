@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="about/style3.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<title>Contact Me</title>
+</head>
+<body>
+	<h1>Joris Kwong</h1>
+	<nav>
+		<a href="#" class = "toggle"><img src="images/menu.png"></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="posts.html">Posts</a></li>
+			<li><a href="about.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<div class="bio">
+			<div class="wrapper">
+				<h2>About & Contact</h2>
+				<figure class="selfie">
+					<img src="images/portrait.png">
+				</figure>
+				<div class="paragraph">
+					<p>Hi, my name is Joris and I am currently a student at NYU.
+					I take pictures of various things that interest me with my
+					cellphone. While I may not be good at it currently I hope to develop this skill as well as various others and hopefully improve as I do this more and more. I actively try to learn many things on my own as much as possible in my free time. I am currently trying to learn how to play the ukulele and drawing scenery.</p>
+				</div>
+				<div class="contact">
+					<p>You can reach me at joris.kwong@nyu.edu or the following links!</p>
+				</div>
+				<div class="social">
+					<a href="https://www.instagram.com/"><img src="images/insta.png"></a>
+					<a href="https://www.facebook.com/"><img src="images/facebook.png"></a>
+					<a href="https://www.linkedin.com/"><img src="images/linkd.png"></a>
+					<a href="https://www.twitter.com/"><img src="images/twitter.png"></a>
+
+			</div>
+
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        (function() {
+            
+            var bodyEl = $('body'),
+                navToggleBtn = bodyEl.find('.toggle');
+            
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+        })();
+        
+    </script>
+
+</body>
+</html>
