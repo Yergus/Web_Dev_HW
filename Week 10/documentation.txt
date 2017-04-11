@@ -1,0 +1,5 @@
+I wanted to create a text generator in order to make a word of the day initially but I 
+couldn't figure out how to make random comprehensible words. I did find the Math.random()
+function to be particularly useful. I think I would need to make an array of actual words
+if I want to make a random word of the day because utilizing just letters would be extremely 
+hard to craft comprehensible words.
