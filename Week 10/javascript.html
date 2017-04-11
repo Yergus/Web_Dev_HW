@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Generator</title>
+</head>
+<body>
+<h1>Password Generator</h1>
+<h2>This is your new password:</h2>
+<p id = "display"></p>
+
+<button onclick="window.location.reload()"> New Password </button>
+	<script type="text/javascript">
+		function wordGen(){
+			var arr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567890!@#$%^&*()";
+			var pword ="";
+			for (var i = 0; i < 10; i++){
+				pword += arr.charAt(Math.random() * arr.length);
+			}
+			return pword;
+		}
+		document.getElementById("display").innerHTML = wordGen();
+	
+</script>
+</body>
+</html>
