@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="gallery/css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<title>Joris's Gallery</title>
+</head>
+
+<body>
+	<h1>Joris Kwong</h1>
+	<nav>
+		<a href="#" class = "toggle"><img src="images/menu.png"></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="posts.html">Posts</a></li>
+			<li><a href="about.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<div class="gallery-box">
+			<div class ="wrapper">
+				<h2>Gallery</h2>
+				<div class="img-single">
+					<a href="images/downtown.jpg" data-lightbox="gallery"><img src="images/downtown.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/bkbridge.jpg" data-lightbox="gallery"><img src="images/bkbridge.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/intersection.JPG" data-lightbox="gallery"><img src="images/intersection.JPG"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/light.jpg" data-lightbox="gallery"><img src="images/light.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/pond.JPG" data-lightbox="gallery"><img src="images/pond.JPG"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/cityline.jpg" data-lightbox="gallery"><img src="images/cityline.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/field.jpeg" data-lightbox="gallery"><img src="images/field.jpeg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/jersey.jpg" data-lightbox="gallery"><img src="images/jersey.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/apple.jpg" data-lightbox="gallery"><img src="images/apple.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/head.jpg" data-lightbox="gallery"><img src="images/head.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/gantry.jpg" data-lightbox="gallery"><img src="images/gantry.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/slide.jpg" data-lightbox="gallery"><img src="images/slide.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/pond2.jpg" data-lightbox="gallery"><img src="images/pond2.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/tank.jpg" data-lightbox="gallery"><img src="images/tank.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/train.jpg" data-lightbox="gallery"><img src="images/train.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/rail2.jpg" data-lightbox="gallery"><img src="images/rail2.jpg"></a>
+				</div>
+				<div class="img-single">
+					<a href="images/trail.jpg" data-lightbox="gallery"><img src="images/trail.jpg"></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        (function() {
+            
+            var bodyEl = $('body'),
+                navToggleBtn = bodyEl.find('.toggle');
+            
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+        })();
+        
+    </script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="posts/style4.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+		<title>Joris's Lens</title>
+</head>
+
+<body>
+	<h1>Joris Kwong</h1>
+	<nav>
+		<a href="#" class = "toggle"><img src="images/menu.png"></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="posts.html">Posts</a></li>
+			<li><a href="about.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<div class="posts">
+		<div class="wrapper">
+			<h2>Posts (Writings & Poems)</h2>
+			<div>
+				<h3> Title of Work </h3>
+				<p>Currently filler, coming soon!</p>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        (function() {
+            
+            var bodyEl = $('body'),
+                navToggleBtn = bodyEl.find('.toggle');
+            
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+        })();
+        
+    </script>
+
+</body>
+</html>
